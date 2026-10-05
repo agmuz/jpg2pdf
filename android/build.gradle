@@ -1,0 +1,48 @@
+
+// Fix dla flutter_tesseract_ocr (jcenter usunięte w Gradle 9)
+subprojects {
+    afterEvaluate { project ->
+        if (project.name == 'flutter_tesseract_ocr') {
+            project.repositories {
+                mavenCentral()
+                google()
+            }
+        }
+    }
+}
+
+// Fix dla flutter_tesseract_ocr (jcenter usuniete w Gradle 9)
+subprojects {
+    afterEvaluate { project ->
+        if (project.name == 'flutter_tesseract_ocr') {
+            project.repositories {
+                mavenCentral()
+                google()
+            }
+        }
+    }
+}
+
+// Fix dla flutter_tesseract_ocr (jcenter usuniete w Gradle 9)
+subprojects {
+    afterEvaluate { project ->
+        if (project.name == 'flutter_tesseract_ocr') {
+            project.repositories {
+                mavenCentral()
+                google()
+            }
+        }
+    }
+}
+
+// Fix dla flutter_tesseract_ocr (jcenter usuniete w Gradle 9)
+subprojects {
+    afterEvaluate { project ->
+        if (project.name == 'flutter_tesseract_ocr') {
+            project.repositories {
+                mavenCentral()
+                google()
+            }
+        }
+    }
+}
